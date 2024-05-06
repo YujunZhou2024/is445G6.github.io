@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-#HW8.1 Visualizations
+#Final Project Visualizations
 ## Dataset
 [Click here to see the dataset](https://github.com/YujunZhou2024/IS445.github.io/blob/main/python_notebooks/annual_aqi_by_county_2018-2023.csv)
 
