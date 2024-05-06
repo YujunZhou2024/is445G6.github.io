@@ -8,7 +8,7 @@ title: Home
 [Click here to see the dataset](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv)
 
 ## Visualization 1
-[Click here to see the visualizations](/viz4.html)
+[Click here to see the visualizations](/workbook.html)
 
 ## Write-up for Visualization 1
 In the two visualizations I submitted, I am exploring a dataset from the UIUC iSchool dataset that contains information about building inventories.
