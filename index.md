@@ -5,9 +5,9 @@ title: Home
 
 #HW8.1 Visualizations
 ## Dataset
-[Click here to see the dataset](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv)
+[Click here to see the dataset](https://github.com/YujunZhou2024/IS445.github.io/blob/main/python_notebooks/annual_aqi_by_county_2018-2023.csv)
 
-## Visualization 1
+## Visualization
 [Click here to see the visualizations](/IS445_Final.html)
 
 ## Write-up for Visualization 1
@@ -20,6 +20,6 @@ The second visualization is a bar chart showing "the total square footage of bui
 Interactivity is introduced through a brushing feature in the second visualization that allows users to select a range of years. The selection dynamically updates the visualization 1. This interactivity enables users to explore how the distribution of building floors has changed over selected time periods.
 
 ## Python notebook
-[Click here to see the notebook](/Untitled.html)
+[Click here to see the notebook](/IS445_Final.ipynb)
 
 ---
