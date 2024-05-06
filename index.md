@@ -10,7 +10,7 @@ title: Home
 ## Visualization
 [Click here to see the visualizations](/IS445_Final.html)
 
-# Outline
+## Outline
 
 **1. Data Preparation**
 
