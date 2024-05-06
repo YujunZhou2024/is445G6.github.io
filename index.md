@@ -10,14 +10,32 @@ title: Home
 ## Visualization
 [Click here to see the visualizations](/IS445_Final.html)
 
-## Write-up for Visualization 1
-In the two visualizations I submitted, I am exploring a dataset from the UIUC iSchool dataset that contains information about building inventories.
+**Outline**
 
-The first visualization is a line chart that illustrates "the relationship between the number of floors in buildings and the count of such buildings" (HW7). Here, the 'Total Floors' is treated as an ordinal variable since the floors are discrete, ordered categories. The 'Number of Buildings' is quantitatively encoded as it represents count data. A data transformation is applied to filter the buildings with valid floor numbers because i observed that some floor numbers are abnormal (i.e., 200).
+**1. Data Preparation**
 
-The second visualization is a bar chart showing "the total square footage of buildings acquired each year" (HW7). 'Year Acquired' is treated as a quantitative variable, reflecting the continuous, numeric nature of years, while the 'Total Square Footage' is also treated as quantitative, representing the aggregated sum of square footage. The color encoding is conditioned on a user's selection (brushing) in the bar chart: selected areas turn 'steelblue', while non-selected areas are 'grey'. This colors are chosen to provide a clear visual distinction between selected and non-selected areas. A data transformation is applied to filter out the years acquired that are positive numbers.
+1.1. Import necessary libraries.
 
-Interactivity is introduced through a brushing feature in the second visualization that allows users to select a range of years. The selection dynamically updates the visualization 1. This interactivity enables users to explore how the distribution of building floors has changed over selected time periods.
+1.2. Read the dataset and perform any initial data filtering or cleaning.
+
+**2. Data Visualization**
+
+Six visualizations were built.
+
+2.1. max_aqi (2): Calculate the average maximum AQI per state and visualize it using a bar chart and a heatmap. 
+
+2.2. good_days (1): Calculate and visualize the average number of good air quality days per state with a bar chart.
+
+2.3. unhealthy_days (1): Calculate and visualize the average number of bad air quality days per state with a bar chart and a year selector.
+
+2.4. air_quality_map (1): Create an interactive plot that updates based on the year selected from a dropdown, showing different kinds of day counts.
+
+2.5. aqi_trend (1): Plot the trend of AQI over the years for a selected state using a line plot with a trend line.
+
+**3. Building Dashboard and refresh button**
+
+3.1. Organize the individual visualizations into a tabbed layout using ipywidgets.tab, with each tab corresponding to a different visualization of the air quality data as shown above.
+3.2. Build a refresh button to update all visualizations with new data if needed.
 
 ## Python notebook
 [Click here to see the notebook](/IS445_Final.ipynb)
